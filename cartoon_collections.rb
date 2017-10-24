@@ -1,6 +1,6 @@
 def roll_call_dwarves(arr)# code an argument here
   # Your code here
-  arr.each_with_index {|i,e|
+  arr.each_with_index {|e,i|
     puts "#{i+1}. #{e}"
   }
 end
