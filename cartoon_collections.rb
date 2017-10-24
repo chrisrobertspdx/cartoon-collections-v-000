@@ -17,7 +17,7 @@ end
 def find_the_cheese(arr)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  arr.each {|e| 
+  arr.each {|e|
     if cheese_type.index(e) != nil
       return true
     }
