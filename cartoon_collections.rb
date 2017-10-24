@@ -20,6 +20,6 @@ def find_the_cheese(arr)# code an argument here
   arr.each {|e|
     if cheese_type.index(e) != nil
       return true
-    }
+    end
     return nil
 end
