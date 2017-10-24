@@ -19,7 +19,7 @@ def find_the_cheese(arr)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   arr.each {|e|
     if cheese_type.index(e) != nil
-      return true
+      return e
     end
   }
     return nil
