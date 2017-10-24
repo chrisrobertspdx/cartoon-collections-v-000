@@ -21,5 +21,6 @@ def find_the_cheese(arr)# code an argument here
     if cheese_type.index(e) != nil
       return true
     end
+  }
     return nil
 end
